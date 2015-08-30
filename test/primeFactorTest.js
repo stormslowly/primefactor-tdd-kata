@@ -5,7 +5,7 @@ var expect = require('chai').expect;
 describe('PrimeFactor', function () {
 
     it('should fail', function () {
-        expect(1).to.equal(2);
+        expect(1).to.equal(1);
     });
 
 });
