@@ -9,4 +9,8 @@ describe('PrimeFactor', function () {
         expect(PrimeFactor.of(1)).to.deep.equal([]);
     });
 
+    it('primeFactor of 2 is [2]', function () {
+        expect(PrimeFactor.of(2)).to.deep.equal([2]);
+    });
+
 });
