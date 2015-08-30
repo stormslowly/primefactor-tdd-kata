@@ -5,12 +5,11 @@ var PrimeFactor = require('../lib/primefactor.js');
 
 describe('PrimeFactor', function () {
 
-    it('primeFactor of 1 is empty', function () {
+    it('primeFactor dive number to prime array', function () {
         expect(PrimeFactor.of(1)).to.deep.equal([]);
+        expect(PrimeFactor.of(2)).to.deep.equal([2]);
+
     });
 
-    it('primeFactor of 2 is [2]', function () {
-        expect(PrimeFactor.of(2)).to.deep.equal([2]);
-    });
 
 });
