@@ -1,5 +1,4 @@
 'use strict';
-/* global it,describe*/
 var expect = require('chai').expect;
 
 describe('PrimeFactor', function () {
