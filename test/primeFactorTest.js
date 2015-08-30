@@ -14,8 +14,10 @@ describe('PrimeFactor', function () {
         expect(PrimeFactor.of(6)).to.deep.equal([2, 3]);
         expect(PrimeFactor.of(7)).to.deep.equal([7]);
         expect(PrimeFactor.of(8)).to.deep.equal([2, 2, 2]);
-        expect(PrimeFactor.of(9)).to.deep.equal([3,3]);
+        expect(PrimeFactor.of(9)).to.deep.equal([3, 3]);
 
+        expect(PrimeFactor.of(2 * 13 * 19 * 23 * 31 * 59)).to.deep.equal(
+            [2, 13, 19, 23, 31, 59]);
     });
 
 
